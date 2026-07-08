@@ -1,0 +1,19 @@
+[project]
+name = "byankushai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "accelerate>=1.14.0",
+    "diffusers>=0.39.0",
+    "fastapi>=0.139.0",
+    "huggingface-hub>=1.22.0",
+    "pillow>=12.3.0",
+    "pydantic>=2.13.4",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+    "transformers>=5.13.0",
+    "uvicorn>=0.51.0",
+    "watchfiles>=1.2.0",
+]
