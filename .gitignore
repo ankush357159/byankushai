@@ -57,3 +57,4 @@ cover/
 uv.lock
 .env
 .envrc
+.venv/
