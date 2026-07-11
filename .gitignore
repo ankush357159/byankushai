@@ -1,3 +1,5 @@
+model_weights/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -55,6 +57,3 @@ cover/
 uv.lock
 .env
 .envrc
-.venv
-env/
-venv/
