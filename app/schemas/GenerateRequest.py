@@ -4,5 +4,5 @@ class GenerateRequest(BaseModel):
         ...,
         min_length=5,
         max_length=500,
-        description="Image generation prompt"
+        description="Generation prompt"
     )

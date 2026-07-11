@@ -2,7 +2,8 @@ from fastapi import APIRouter, HTTPException
 
 from app.schemas.GenerateRequest import GenerateRequest
 from app.schemas.GenerateResponse import GenerateResponse
-from app.services.image_generation import image_generation_service
+from app.services.text_to_image.image_generation_service import image_generation_service
+from app.services.text_to_image.model_downloader import MODEL_ID
 
 router = APIRouter(
     prefix="/images",
@@ -16,7 +17,7 @@ async def health():
     return {
         "status": "UP",
         "device": image_generation_service.device,
-        "model": "stabilityai/sd-turbo"
+        "model": MODEL_ID
     }
 
 
